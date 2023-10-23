@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"name": "lines",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Hyrcania" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 54.423638317973243, 36.79672665353722 ], [ 56.41557134627152, 36.79672665353722 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Komisene" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 53.859323173676493, 35.687361299386716 ], [ 55.168682644595719, 35.670787128868753 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Parthyene" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 54.853773404754392, 38.256357729671286 ], [ 56.560912968104773, 38.322654411743144 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Astauene" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 56.991841401571868, 36.748108212536472 ], [ 58.516665089224638, 36.880701576680195 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Apauarktikene" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 58.168607508347378, 38.107190195009601 ], [ 60.223804652575026, 38.123764365527563 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Margiane" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 60.190656311539101, 36.897275747198158 ], [ 62.179556773694891, 36.847553235644263 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Areia" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 59.26250276253306, 33.632164155159067 ], [ 60.853623132257695, 33.615589984641105 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Anauon" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 58.582961771296503, 32.704010606153027 ], [ 60.356398016718757, 32.687436435635064 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Zarangiane" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 59.74315370755405, 30.947148531248747 ], [ 61.99724089799728, 30.914000190212818 ], [ 62.494466013536226, 30.914000190212818 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Sakastane/Paraitakene" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 61.085661519509209, 31.576967010931412 ], [ 63.107710322700932, 31.543818669895483 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Arachosia/Indike Leuke" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 65.892170969719047, 30.300755881048101 ], [ 71.229053876503755, 30.33390422208403 ], [ 71.229053876503755, 30.33390422208403 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Choarene" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 51.091436697176363, 35.637638787832799 ], [ 53.130059670886048, 35.521619594207046 ], [ 53.130059670886048, 35.521619594207046 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Kambadene" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 46.632984827843806, 33.715035007748867 ], [ 49.367722963308019, 33.748183348784799 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Karina" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 45.536644204237447, 33.389529167084582 ], [ 46.743026451774568, 33.422134092693696 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Apolloniatis" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 44.933453080468887, 33.096084836602579 ], [ 47.313612649934015, 33.096084836602579 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Zagros M." }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 44.346564419504887, 36.242460157881823 ], [ 45.259502336560004, 35.574059182895041 ], [ 45.976810699960453, 34.856750819494593 ], [ 46.253952567637896, 34.481794174989808 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Media" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 46.188742716419675, 35.394732092044926 ], [ 48.308062881011914, 35.362127166435819 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Babylonia" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 42.63480582502654, 34.02532521646225 ], [ 44.004212700609216, 33.894905514025808 ] ] ] } },
+{ "type": "Feature", "properties": { "Id": null, "Map_Entry": "Mesopotamia" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 38.086418702555498, 37.302120240177935 ], [ 39.863387148252066, 37.351027628591602 ] ] ] } }
+]
+}
