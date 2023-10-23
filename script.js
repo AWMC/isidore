@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const properties = feature.getProperties();
             const content = `
                 <ul>
-                    <li><strong>title:</strong> ${properties.title}</li>
+                    <li><strong>Title:</strong> ${properties.Title}</li>
                     <li><strong>Ftr_Type:</strong> ${properties.Ftr_Type}</li>
                     <li><strong>BA_1:</strong> ${properties.BA_1}</li>
                     <li><strong>Dir_entry1:</strong> ${properties.Dir_entry1}</li>
