@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const highlightStyle = new ol.style.Style({
         image: new ol.style.Circle({
-            radius: 1,
+            radius: 8,
             fill: new ol.style.Fill({ color: 'yellow' }),
             stroke: new ol.style.Stroke({ color: 'black', width: 2 }),
         }),
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (ftrType === 'town') {
             style = new ol.style.Style({
                 image: new ol.style.Circle({
-                    radius: 5,
+                    radius: 1,
                     fill: new ol.style.Fill({ color: 'white' }),
                     stroke: new ol.style.Stroke({ color: 'black', width: 1 }), // Add the black outline
                 }),
