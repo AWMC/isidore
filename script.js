@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             style = new ol.style.Style({
                 image: new ol.style.Circle({
-                    radius: 4,
+                    radius: 5,
                     fill: new ol.style.Fill({ color: 'black' }),
                 }),
             });
