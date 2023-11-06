@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const highlightStyle = new ol.style.Style({
         image: new ol.style.Circle({
-            radius: 7,
+            radius: 1,
             fill: new ol.style.Fill({ color: 'yellow' }),
             stroke: new ol.style.Stroke({ color: 'black', width: 2 }),
         }),
