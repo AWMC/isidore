@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (ftrType === 'town') {
             style = new ol.style.Style({
                 image: new ol.style.Circle({
-                    radius: 1,
+                    radius: 5,
                     fill: new ol.style.Fill({ color: 'white' }),
                     stroke: new ol.style.Stroke({ color: 'black', width: 1 }), // Add the black outline
                 }),
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else if (ftrType === 'mountain') {
             style = new ol.style.Style({
                 image: new ol.style.RegularShape({
-                    points: 3,
+                    points: 1,
                     radius: 8,
                     fill: new ol.style.Fill({ color: 'black' }),
                 }),
