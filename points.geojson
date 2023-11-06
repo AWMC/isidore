@@ -13,7 +13,7 @@
 { "type": "Feature", "properties": { "PleiadesID": 874312, "Title": "Alagma", "Link": "https://pleiades.stoa.org/places/874312" }, "geometry": { "type": "Point", "coordinates": [ 39.024544, 36.411605 ] } },
 { "type": "Feature", "properties": { "PleiadesID": 874729, "Title": "Tell al-Sadde/Ichnae?", "Link": "https://pleiades.stoa.org/places/874729" }, "geometry": { "type": "Point", "coordinates": [ 38.953048, 36.245996 ] } },
 { "type": "Feature", "properties": { "PleiadesID": 668318, "Title": "Nicephorium/Callinicum/Leontopolis", "Link": "https://pleiades.stoa.org/places/668318" }, "geometry": { "type": "Point", "coordinates": [ 39.023783, 35.947807 ] } },
-{ "type": "Feature", "properties": { "PleiadesID": 893955, "Title": "Basileiaâ€™?/Annoukas?", "Link": "https://pleiades.stoa.org/places/893955" }, "geometry": { "type": "Point", "coordinates": [ 39.5, 35.5 ] } },
+{ "type": "Feature", "properties": { "PleiadesID": 893955, "Title": "Basileia?/Annoukas?", "Link": "https://pleiades.stoa.org/places/893955" }, "geometry": { "type": "Point", "coordinates": [ 39.5, 35.5 ] } },
 { "type": "Feature", "properties": { "PleiadesID": 893976, "Title": "Ctesiphon", "Link": "https://pleiades.stoa.org/places/893976" }, "geometry": { "type": "Point", "coordinates": [ 40.395918666699998, 35.214407666699998 ] } },
 { "type": "Feature", "properties": { "PleiadesID": 893998, "Title": "Gabalein/Nabagata", "Link": "https://pleiades.stoa.org/places/893998" }, "geometry": { "type": "Point", "coordinates": [ 40.443672, 35.128513 ] } },
 { "type": "Feature", "properties": { "PleiadesID": 893990, "Title": "D(o)ura/Europos", "Link": "https://pleiades.stoa.org/places/893990" }, "geometry": { "type": "Point", "coordinates": [ 40.72782425, 34.75007675 ] } },
