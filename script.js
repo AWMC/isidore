@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const selectedFeature = selectedFeatures[0];
     
             // Handle the selected feature (line or label)
-            const mapEntry = selectedFeature.get('Map_Entry');
+            const mapEntry = selectedFeature.get('Region');
             console.log('Selected:', mapEntry);
     
             // Apply bright yellow style to the selected feature
