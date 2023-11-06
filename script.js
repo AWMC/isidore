@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else if (ftrType === 'mountain') {
             style = new ol.style.Style({
                 image: new ol.style.RegularShape({
-                    points: 1,
+                    points: 3,
                     radius: 8,
                     fill: new ol.style.Fill({ color: 'black' }),
                 }),
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             style = new ol.style.Style({
                 image: new ol.style.Circle({
-                    radius: 5,
+                    radius: 4,
                     fill: new ol.style.Fill({ color: 'black' }),
                 }),
             });
