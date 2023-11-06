@@ -72,7 +72,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     map.addLayer(vectorLayer);
 
-   
+    const lineStyleFunction = (feature) => {
+        const ftrType = feature.get('Ftr_Type');
+        const mapEntry = feature.get('Map_Entry');
+
+        let style;
+
+        if (ftrType === 'road') {
+            style = new ol.style.Style({
+                stroke: new ol.style.Stroke({
+                    color: 'blue',
+                    width: 2,
+                }),
                 text: new ol.style.Text({
                     text: mapEntry, // Use Map_Entry as the label text
                     fill: new ol.style.Fill({ color: 'black' }),
