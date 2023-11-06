@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const content = `
                 <ul>
                     <li><strong>PleiadesID:</strong> ${properties.PleiadesID}</li>
-                    <li><strong>Title:</strong> ${properties.Title}</li>
+                    <li><strong>Title:</strong> <a href="${properties.Link}">${properties.Title}</a></li>
                     <li><strong>Link:</strong> ${properties.Link}</li>
                 </ul>
             `;
