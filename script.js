@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <ul>
                     <li><strong>ID:</ID> ${properties.PleiadesID}</li>
                     <li><strong>Title:</strong> ${properties.Title}</li>
-                    <li><strong>Title:</strong> ${properties.Link}</li>
+                    <li><strong>Link:</strong> ${properties.Link}</li>
                 </ul>
             `;
             popupContent.innerHTML = content;
