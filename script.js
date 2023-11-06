@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             style = new ol.style.Style({
                 image: new ol.style.Circle({
-                    radius: 5,
+                    radius: 4,
                     fill: new ol.style.Fill({ color: 'black' }),
                 }),
             });
@@ -246,12 +246,6 @@ document.addEventListener("DOMContentLoaded", function () {
             previouslySelectedFeature = null;
         }
     });
-    
-    
-    
-});
-
-
     
     
     
