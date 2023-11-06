@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const lineStyleFunction = (feature) => {
         const ftrType = feature.get('Ftr_Type');
-        const mapEntry = feature.get('Map_Entry');
+        const mapEntry = feature.get('Region');
 
         let style;
 
