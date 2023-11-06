@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const lineStyleFunction = (feature) => {
         const ftrType = feature.get('Ftr_Type');
-        const mapEntry = feature.get('Region');
+        const mapEntry = feature.get('Map_Entry');
 
         let style;
 
@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const selectedFeature = selectedFeatures[0];
     
             // Handle the selected feature (line or label)
-            const mapEntry = selectedFeature.get('Region');
+            const mapEntry = selectedFeature.get('Map_Entry');
             console.log('Selected:', mapEntry);
     
             // Apply bright yellow style to the selected feature
