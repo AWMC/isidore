@@ -190,9 +190,6 @@ document.addEventListener("DOMContentLoaded", function () {
             popupContent.innerHTML = content;
             overlay.setPosition(event.coordinate);
 
-           
-            popupContent.innerHTML = content;
-            overlay.setPosition(event.coordinate);
             if (selectedFeature) {
                 selectedFeature.setStyle(styleFunction(selectedFeature)); // Reset style
             }
