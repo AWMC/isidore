@@ -179,6 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
     map.on('click', function (event) {
         const feature = map.forEachFeatureAtPixel(event.pixel, (feature) => feature);
         if (feature) {
+            url: 'points.geojson',
             const properties = feature.getProperties();
             const content = `
                 <ul>
@@ -190,6 +191,16 @@ document.addEventListener("DOMContentLoaded", function () {
             popupContent.innerHTML = content;
             overlay.setPosition(event.coordinate);
 
+            else {
+            url: 'lines.geojson',
+            const properties = feature.getProperties();
+            const content = `
+                <ul>
+                    <li><strong>Region:</strong> ${properties.Region}</li>
+                </ul>
+            `;
+            popupContent.innerHTML = content;
+            overlay.setPosition(event.coordinate);
             if (selectedFeature) {
                 selectedFeature.setStyle(styleFunction(selectedFeature)); // Reset style
             }
