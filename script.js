@@ -182,9 +182,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const properties = feature.getProperties();
             const content = `
                 <ul>
-                    <li><strong>PleiadesID:</strong> ${properties.PleiadesID}</li>
-                    <li><strong>Title:</strong> <a href="${properties.Link}">${properties.Title}</a></li>
-                    <li><strong>Link:</strong> ${properties.Link}</li>
+                    <li><strong>Pleiades ID:</strong> ${properties.PleiadesID}</li>
+                    <li><strong>Location:</strong> <a href="${properties.Link}">${properties.Title}</a></li>
                 </ul>
             `;
             popupContent.innerHTML = content;
