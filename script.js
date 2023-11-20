@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         view: new ol.View({
             center: ol.proj.fromLonLat([44, 33]),
-            zoom: 6,
+            zoom: 5,
         }),
     });
 
