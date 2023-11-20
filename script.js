@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const lineStyleFunction = (feature) => {
         const ftrType = feature.get('Ftr_Type');
-        const mapEntry = feature.get('Map_Entry');
+        const mapEntry = feature.get('Title');
 
         let style;
 
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     width: 2,
                 }),
                 text: new ol.style.Text({
-                    text: mapEntry, // Use Map_Entry as the label text
+                    text: mapEntry, // Use Map_Entry --> Title updated to reflect geojson as the label text
                     fill: new ol.style.Fill({ color: 'black' }),
                     font: '12px Arial',
                     placement: 'line', // Place the label along the line
