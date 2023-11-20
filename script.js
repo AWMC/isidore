@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const highlightStyle = new ol.style.Style({
         image: new ol.style.Circle({
-            radius: 8,
+            radius: 7,
             fill: new ol.style.Fill({ color: 'yellow' }),
             stroke: new ol.style.Stroke({ color: 'black', width: 2 }),
         }),
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         view: new ol.View({
             center: ol.proj.fromLonLat([44, 35]),
-            zoom: 5.75,
+            zoom: 6,
         }),
     });
 
