@@ -87,8 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 text: new ol.style.Text({
                     text: mapEntry, // Use Map_Entry --> Title updated to reflect geojson as the label text
                     fill: new ol.style.Fill({ color: 'black' }),
-                    font: '20px Arial',
-                    font-weight: 'bold',
+                    font: '20px Arial', 'bold',
                     placement: 'line', // Place the label along the line
                     maxAngle: 0.4, // Adjust to control label orientation
                 }),
@@ -102,8 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 text: new ol.style.Text({
                     text: mapEntry, // Use Map_Entry as the label text
                     fill: new ol.style.Fill({ color: 'black' }),
-                    font: '20px Arial',
-                    font-weight: 'bold',
+                    font: '20px Arial', 'bold',
                     placement: 'line', // Place the label along the line
                     maxAngle: 0.4, // Adjust to control label orientation
                 }),
@@ -117,8 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 text: new ol.style.Text({
                     text: mapEntry, // Use Map_Entry as the label text
                     fill: new ol.style.Fill({ color: 'black' }),
-                    font: '20px Arial',
-                    font-weight: 'bold',
+                    font: '20px Arial', 'bold',
                     placement: 'line', // Place the label along the line
                     maxAngle: 0.4, // Adjust to control label orientation
                 }),
