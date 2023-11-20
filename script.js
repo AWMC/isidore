@@ -110,7 +110,8 @@ document.addEventListener("DOMContentLoaded", function () {
             style = new ol.style.Style({
                 stroke: new ol.style.Stroke({
                     color: 'gray',
-                    width: 0,
+                    width: 1,
+                    opacity: 0
                 }),
                 text: new ol.style.Text({
                     text: mapEntry, // Use Map_Entry as the label text
