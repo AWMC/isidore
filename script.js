@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }),
         ],
         view: new ol.View({
-            center: ol.proj.fromLonLat([44, 34]),
-            zoom: 5.5,
+            center: ol.proj.fromLonLat([44, 35]),
+            zoom: 5.75,
         }),
     });
 
