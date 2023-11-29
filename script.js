@@ -177,17 +177,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
  // Show the searchable index overlay when "Home" link is clicked
-    const overlayElement = document.getElementById('overlay');
-    const overlayCloser = document.getElementById('overlay-closer');
-    const searchLink = document.getElementById('searchLink');
+   /// const overlayElement = document.getElementById('overlay');
+    ///const overlayCloser = document.getElementById('overlay-closer');
+   /// const searchLink = document.getElementById('home');
 
-    searchLink.addEventListener('click', function () {
-        overlayElement.style.display = 'block';
-    });
+   /// home.addEventListener('click', function () {
+    ///    overlayElement.style.display = 'block';
+  ///  });
 
-    overlayCloser.addEventListener('click', function () {
+  ///  overlayCloser.addEventListener('click', function () {
         overlayElement.style.display = 'none';
-    });
+  ///  });
     /////////////
     map.on('click', function (event) {
         const feature = map.forEachFeatureAtPixel(event.pixel, (feature) => feature);
