@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ///  });
 
   ///  overlayCloser.addEventListener('click', function () {
-        overlayElement.style.display = 'none';
+       /// overlayElement.style.display = 'none';
   ///  });
     /////////////
     map.on('click', function (event) {
