@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
  // Show the searchable index overlay when "Home" link is clicked
    /// const overlayElement = document.getElementById('overlay');
     ///const overlayCloser = document.getElementById('overlay-closer');
-   /// const searchLink = document.getElementById('home');
+   /// const home = document.getElementById('home');
 
    /// home.addEventListener('click', function () {
     ///    overlayElement.style.display = 'block';
